@@ -1,1 +1,22 @@
 theme: jekyll-theme-architect
+class rect2
+{
+double width;
+double heigth;
+rect2(double w, double h)
+{
+width = w ;
+height =h;
+}
+double area()
+{
+return weidth * height;
+}
+public static void main (String ss[])
+{
+rect2 r= new rect2 (10.2,5.0);
+double ar;
+ar=r.area();
+System.out.println(ar);
+}
+}
